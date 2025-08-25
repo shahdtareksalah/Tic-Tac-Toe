@@ -23,7 +23,6 @@ export default function Player({ initialName, playersymbol, isActive, onChangeNa
       <input type="text" required value={playerName} onChange={handleChange} />
     );
   }
-
   return (
     <li className={isActive ? 'active' : undefined}>
       <span className="player">
